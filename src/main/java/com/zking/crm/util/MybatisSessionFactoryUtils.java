@@ -47,7 +47,8 @@ public class MybatisSessionFactoryUtils {
 		SqlSession sqlSession = MybatisSessionFactoryUtils.openSession();
 		System.out.println(sqlSession);
 		System.out.println(sqlSession.getConnection());
-		MybatisSessionFactoryUtils.closeSession();
+        System.out.println("d");
+        MybatisSessionFactoryUtils.closeSession();
 	}
 
 }
